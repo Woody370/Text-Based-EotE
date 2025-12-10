@@ -5,6 +5,7 @@ def main():
     print(f"\nYour journey begins, {character.name} the "
           f"{character.species} {character.career}"
     )
-
+    input("\nPress Enter to exit...")
+    
 if __name__ == "__main__":
     main()
