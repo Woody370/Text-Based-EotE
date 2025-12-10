@@ -6,6 +6,6 @@ def main():
           f"{character.species} {character.career}"
     )
     input("\nPress Enter to exit...")
-    
+
 if __name__ == "__main__":
     main()
