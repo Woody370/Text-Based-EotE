@@ -3,7 +3,7 @@
 - A very work-in-progress attempt at bringing the TTRPG to a text-based format!  
 
 - Commits will be made to the core funtions, however I'll be uploading a Windows .exe as well  
-for those who don't have WSL or VSC installed on their machines :)
+for those who don't have WSL or VSC installed on their machines. Current version is available [here](https://github.com/Woody370/Text-Based-EotE/blob/main/Star%20Wars%20-%20Edge%20of%20the%20Empire.exe)
 <br />
   
 # <p align="center"> === Character Creation ===</p>  
