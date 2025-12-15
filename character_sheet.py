@@ -1,6 +1,7 @@
 from species import SPECIES_DATA
 from careers import CAREERS_DATA
 from skills import ALL_SKILLS
+from utilities import get_limited_input, sanitize_input
 
 class Character:
     def __init__(self, name, species, career, 
@@ -102,7 +103,13 @@ def create_character():
     print("=== Character Creation ===")
     print()
 
-    name = input("Enter your character's name: ")
+    while True:        
+        name = get_limited_input("Enter your character's name: ", max_length=25)
+        name = sanitize_input(name)
+        if name: 
+            break
+        else:
+            print("Name cannot be empty. Please enter a name.")
     print()
 
     pronouns = choose_pronouns()

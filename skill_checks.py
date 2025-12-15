@@ -53,4 +53,4 @@ def make_skill_check(character, skill_name, difficulty=1, challenge=0, setback=0
 
     net = calculate_net_results(results)
 
-    return net
+    return results, net
